@@ -1,9 +1,9 @@
 function NumberType(num){
     let Number1 = num;
-    if(num>0){
+    if(Number1>0){
         console.log(`${Number1} is positive number`);
     }
-    else if(num<0){
+    else if(Number1<0){
         console.log(`${Number1} is a negative number`);
     }
     else{
