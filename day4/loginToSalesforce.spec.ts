@@ -33,7 +33,7 @@ test("login to sales force", async() => {
 
     //enter password
 
-    await page.locator("#password").pressSequentially("Asdf@12345")
+    await page.locator("#password").pressSequentially("xxxxx")
 
     //clink the login
 
