@@ -51,7 +51,6 @@ await selectSize.click();
 const mostDiscount = await page.locator(`//button[@data-test-id="sort-bar-desktop:dropdown-button"]`).click()
 await page.locator(`//span[".flex items-center gap-2"]`).filter({hasText:"Highest discount"}).click();
 
-// 👇 THE FIX: wait for filtered results to finish loading
   // before the slider is touched
  // await page.waitForLoadState("networkidle");
 
@@ -75,7 +74,6 @@ await page.locator(`//span[".flex items-center gap-2"]`).filter({hasText:"Highes
   
   await page.mouse.up();
 
-//   // Optional: check updated value
 //   const newValue = await minHandle.getAttribute("aria-valuenow");
 //   console.log("Updated min slider value:", newValue);
 //   // Assert that the slider value changed
