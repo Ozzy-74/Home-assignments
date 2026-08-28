@@ -1,0 +1,25 @@
+[
+    {
+        "companyName": "TestLeaf",
+        "firstName": "Krishna",
+        "lastName": "Kumar",
+        "source": "Direct Mail",
+        "marketingCampaign": "Road and Track",
+        "industry": "General Services",
+        "currency": "INR - Indian Rupee",
+        "country": "India",
+        "state": "TAMILNADU"
+    },
+    {
+        "companyName": "ABC Technologies",
+        "firstName": "Arun",
+        "lastName": "Kumar",
+        "source": "Direct Mail",
+        "marketingCampaign": "Automobile",
+        "industry": "General Services",
+        "currency": "INR - Indian Rupee",
+        "country": "India",
+        "state": "TAMILNADU"
+    }
+]
+
